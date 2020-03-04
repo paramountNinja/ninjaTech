@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ninja-kafka-producer/ninja-kafka-producer.iml" filepath="$PROJECT_DIR$/ninja-kafka-producer/ninja-kafka-producer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ninja-mq-common/ninja-mq-common.iml" filepath="$PROJECT_DIR$/ninja-mq-common/ninja-mq-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ninja-mq-consumer/ninja-mq-consumer.iml" filepath="$PROJECT_DIR$/ninja-mq-consumer/ninja-mq-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ninja-mq-parent.iml" filepath="$PROJECT_DIR$/ninja-mq-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ninja-mq-producer/ninja-mq-producer.iml" filepath="$PROJECT_DIR$/ninja-mq-producer/ninja-mq-producer.iml" />
+    </modules>
+  </component>
+</project>

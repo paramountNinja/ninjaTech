@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ninja-dubbo-consumer/ninja-dubbo-consumer.iml" filepath="$PROJECT_DIR$/ninja-dubbo-consumer/ninja-dubbo-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ninja-dubbo-parent.iml" filepath="$PROJECT_DIR$/ninja-dubbo-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ninja-dubbo-provider/ninja-dubbo-provider.iml" filepath="$PROJECT_DIR$/ninja-dubbo-provider/ninja-dubbo-provider.iml" />
+    </modules>
+  </component>
+</project>

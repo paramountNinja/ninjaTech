@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1e550547-3797-4902-af76-619ebea90fe5" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>lombok</find>
+      <find>pom</find>
+      <find>jar</find>
+      <find>Created new connection</find>
+      <find>map</find>
+      <find>ORDER_SUCCESS_BIINDING_KEY</find>
+      <find>with</find>
+      <find>Queue</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\environment\localM2" />
+        <option name="mavenHome" value="D:/environment/maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\environment\maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VmHPckAz9iqgifYd5yTbHWqsOm" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Gradle</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Maven</id>
+          </State>
+          <State>
+            <id>OSGi</id>
+          </State>
+          <State>
+            <id>Probable bugsGradle</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="D:/yummyWorkspace/nudibranch" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.cmbchina.producer" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cmbchina.consumer" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.NinjaKafkaProducerApplication">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration name="ConsumerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cmbchina.consumer.ConsumerApplication" />
+      <module name="ninja-mq-consumer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cmbchina.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitAdminTests.testRabbitAdmin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ninja-mq-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cmbchina.producer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cmbchina.consumer" />
+      <option name="MAIN_CLASS_NAME" value="com.cmbchina.consumer.RabbitAdminTests" />
+      <option name="METHOD_NAME" value="testRabbitAdmin" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitAmpqTests.testRabbitAmqp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ninja-mq-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cmbchina.producer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cmbchina.consumer" />
+      <option name="MAIN_CLASS_NAME" value="com.cmbchina.consumer.RabbitAmpqTests" />
+      <option name="METHOD_NAME" value="testRabbitAmqp" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ninja-mq-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cmbchina.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cmbchina.ConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NinjaKafkaProducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ninja-kafka-producer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cmbchina.NinjaKafkaProducerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ninja-mq-producer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cmbchina.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cmbchina.ProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ConsumerApplication" />
+      <item itemvalue="JUnit.RabbitAdminTests.testRabbitAdmin" />
+      <item itemvalue="JUnit.RabbitAmpqTests.testRabbitAmqp" />
+      <item itemvalue="Spring Boot.NinjaKafkaProducerApplication" />
+      <item itemvalue="Spring Boot.ConsumerApplication" />
+      <item itemvalue="Spring Boot.ProviderApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ConsumerApplication" />
+        <item itemvalue="Spring Boot.ProviderApplication" />
+        <item itemvalue="JUnit.RabbitAdminTests.testRabbitAdmin" />
+        <item itemvalue="Application.ConsumerApplication" />
+        <item itemvalue="JUnit.RabbitAmpqTests.testRabbitAmqp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.091530055" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e550547-3797-4902-af76-619ebea90fe5" name="Default" comment="" />
+      <created>1575297577436</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575297577436</updated>
+      <workItem from="1575297579042" duration="1789000" />
+      <workItem from="1575472190238" duration="1831000" />
+      <workItem from="1575594851004" duration="1350000" />
+      <workItem from="1575682126963" duration="3483000" />
+      <workItem from="1575689379333" duration="11731000" />
+      <workItem from="1575814630774" duration="8216000" />
+      <workItem from="1575900056219" duration="5501000" />
+      <workItem from="1577233501211" duration="248000" />
+      <workItem from="1577583630515" duration="19305000" />
+      <workItem from="1577622951832" duration="6970000" />
+      <workItem from="1577669436637" duration="6946000" />
+      <workItem from="1577785037755" duration="1178000" />
+      <workItem from="1577849412212" duration="541000" />
+      <workItem from="1577851343469" duration="50000" />
+      <workItem from="1577851435999" duration="847000" />
+      <workItem from="1577937346327" duration="6955000" />
+      <workItem from="1578045534612" duration="1004000" />
+      <workItem from="1578099129940" duration="601000" />
+      <workItem from="1578739055664" duration="3000" />
+      <workItem from="1579606963657" duration="1699000" />
+      <workItem from="1581320031068" duration="2006000" />
+      <workItem from="1581322102045" duration="5977000" />
+      <workItem from="1581347799382" duration="1228000" />
+      <workItem from="1581402028755" duration="2787000" />
+      <workItem from="1581420033417" duration="2077000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="NinjaMqConsumerApplicationTests_testRabbitAdmin - 2019.12.07 at 19h 07m 43s.xml">
+      <configuration name="NinjaMqConsumerApplicationTests.testRabbitAdmin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NinjaMqConsumerApplicationTests_testRabbitAdmin - 2019.12.07 at 19h 08m 49s.xml">
+      <configuration name="NinjaMqConsumerApplicationTests.testRabbitAdmin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NinjaMqConsumerApplicationTests_testRabbitAdmin - 2019.12.07 at 19h 11m 05s.xml">
+      <configuration name="NinjaMqConsumerApplicationTests.testRabbitAdmin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NinjaMqConsumerApplicationTests_testRabbitAdmin - 2019.12.07 at 19h 31m 23s.xml">
+      <configuration name="NinjaMqConsumerApplicationTests.testRabbitAdmin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NinjaMqConsumerApplicationTests_testRabbitAdmin - 2019.12.07 at 22h 30m 44s.xml">
+      <configuration name="NinjaMqConsumerApplicationTests.testRabbitAdmin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NinjaMqConsumerApplicationTests_testRabbitAdmin - 2019.12.07 at 22h 39m 05s.xml">
+      <configuration name="NinjaMqConsumerApplicationTests.testRabbitAdmin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NinjaMqConsumerApplicationTests_testRabbitAdmin - 2019.12.07 at 22h 43m 57s.xml">
+      <configuration name="NinjaMqConsumerApplicationTests.testRabbitAdmin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RabbitAdminTests_testRabbitAdmin - 2019.12.07 at 23h 01m 38s.xml">
+      <configuration name="RabbitAdminTests.testRabbitAdmin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RabbitAdminTests_testRabbitAdmin - 2019.12.09 at 22h 38m 59s.xml">
+      <configuration name="RabbitAdminTests.testRabbitAdmin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RabbitAmpqTests_testRabbitAmqp - 2019.12.07 at 22h 58m 06s.xml">
+      <configuration name="RabbitAmpqTests.testRabbitAmqp" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#Notifications" timestamp="1577851459363">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1577851459363" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1581405233814">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581405233814" />
+    <state width="1329" height="228" key="GridCell.Tab.0.bottom" timestamp="1581409080445">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1329" height="228" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581409080445" />
+    <state width="1329" height="228" key="GridCell.Tab.0.center" timestamp="1581409080445">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1329" height="228" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581409080445" />
+    <state width="1329" height="228" key="GridCell.Tab.0.left" timestamp="1581409080445">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1329" height="228" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581409080445" />
+    <state width="1329" height="228" key="GridCell.Tab.0.right" timestamp="1581409080445">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1329" height="228" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581409080445" />
+    <state width="1329" height="228" key="GridCell.Tab.1.bottom" timestamp="1581409080445">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1329" height="228" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581409080445" />
+    <state width="1329" height="228" key="GridCell.Tab.1.center" timestamp="1581409080445">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1329" height="228" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1581409080445" />
+    <state width="1329" height="228" key="GridCell.Tab.1.left" timestamp="1581409080445">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1329" height="228" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1581409080445" />
+    <state width="1329" height="228" key="GridCell.Tab.1.right" timestamp="1581409080445">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1329" height="228" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1581409080445" />
+    <state width="1329" height="228" key="GridCell.Tab.2.bottom" timestamp="1581409080445">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1329" height="228" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581409080445" />
+    <state width="1329" height="228" key="GridCell.Tab.2.center" timestamp="1581409080445">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1329" height="228" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1581409080445" />
+    <state width="1329" height="228" key="GridCell.Tab.2.left" timestamp="1581409080445">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1329" height="228" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1581409080445" />
+    <state width="1329" height="228" key="GridCell.Tab.2.right" timestamp="1581409080445">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1329" height="228" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1581409080445" />
+    <state x="270" y="55" key="SettingsEditor" timestamp="1581423531158">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581423531158" />
+    <state x="178" y="114" key="new project wizard" timestamp="1581320154060">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="114" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1581320154060" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ninja-kafka-producer/src/main/java/com/cmbchina/demo/MyConsumer.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ninja-mq-common</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.1.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
