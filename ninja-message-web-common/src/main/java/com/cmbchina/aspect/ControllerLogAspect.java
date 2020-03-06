@@ -25,7 +25,7 @@ public class ControllerLogAspect {
     @Autowired
     private ObjectMapper objectMapper;
 
-    @Around(value = "execution(* com.cmbchina..controller.*Controller.*(..))")
+    @Around(value = "execution(* com.cmbchina..controller..*Controller.*(..))")
     public Object doAroundController(ProceedingJoinPoint proceedingJoinPoint) throws Throwable {
         long requestStart = System.currentTimeMillis();
         HttpServletRequest request = getCurrentRequest();
