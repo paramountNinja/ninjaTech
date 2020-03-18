@@ -1,0 +1,6 @@
+zuul:
+  routes:
+    ninja-provider-order-client:
+      service-id: ninja-provider-order-client
+      path: /order/**
+  ignored-services: '*'
