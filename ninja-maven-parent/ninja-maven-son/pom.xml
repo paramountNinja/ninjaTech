@@ -3,14 +3,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.cmbchina</groupId>
-        <artifactId>ninja-spring-cloud-parent</artifactId>
+        <groupId>com.example</groupId>
+        <artifactId>ninja-maven-parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <groupId>com.cmbchina</groupId>
-    <artifactId>ninja-spring-cloud-base</artifactId>
+    <groupId>com.example</groupId>
+    <artifactId>ninja-maven-son</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>ninja-spring-cloud-base</name>
+    <name>ninja-maven-son</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -22,25 +22,21 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
-        </dependency>
 
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.junit.vintage</groupId>
-                    <artifactId>junit-vintage-engine</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
     </dependencies>
 
     <build>
+        
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
