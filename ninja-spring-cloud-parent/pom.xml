@@ -24,6 +24,10 @@
         <module>ninja-eureka-server</module>
         <module>ninja-consumer-user-client</module>
         <module>ninja-provider-order-client</module>
+        <module>feign-consumer</module>
+        <module>feign-api</module>
+        <module>feign-provider</module>
+        <module>hystrix-dashboard</module>
     </modules>
 
     <dependencyManagement>
