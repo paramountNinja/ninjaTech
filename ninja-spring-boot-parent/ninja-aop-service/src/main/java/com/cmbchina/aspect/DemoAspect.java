@@ -26,9 +26,9 @@ public class DemoAspect {
     public Object doAround(ProceedingJoinPoint proceedingJoinPoint) throws Throwable {
         System.out.println(proceedingJoinPoint.getSignature() + " : before");
         Object[] args = proceedingJoinPoint.getArgs();
-        if (args.length > 0) {
+        /*if (args.length > 0) {
             System.out.println(objectMapper.writeValueAsString(args[0]));
-        }
+        }*/
         Object proceed = proceedingJoinPoint.proceed();
         System.out.println(proceedingJoinPoint.getSignature() + " : after");
         return proceed;
