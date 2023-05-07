@@ -1,13 +1,34 @@
 zuul:
+  # http://localhost:10086/gateway/xxx
+  prefix: /gateway
+  #配置成true表示不会带入下游服务
+  strip-prefix: true
+  #忽略这些路径,不能被网关转发
+  ignored-patterns: /**/sys/**
+  #这个配置意味着将所有的服务都忽略，也可以制定几个微服务逗号隔开，不会被路由到具体的服务实例。这意味着 Zuul 网关不会将任何请求路由到具体的服务，而是直接返回一个错误响应。
+  #这可能在一些特定的情况下有用，例如在开发或测试环境中，当我们关闭了具体的服务实例，而我们需要一些方式来防止请求到达它们。在这种情况下，我们可以将所有的服务忽略，以避免意外的错误响应。
+  #但是，在生产环境中，我们通常不会使用这个配置，因为它会导致所有的服务失效，影响应用程序的可用性。因此，需要根据具体情况来使用这个配置，以确保系统的正常运行。
+  #不配置这个属性的话可以通过eureka服务发现后http://localhost:10086/ninja-provider-order-client/order/test 这种格式去原生访问下游服务
+  #ignored-services: '*'
   routes:
-    ninja-provider-order-client:
+    #只是一个名字
+    ninja-provider-order-client-name:
+      #对应的是eureka上注册的名字，对他进行个性化设置
       service-id: ninja-provider-order-client
-      path: /order/**
-  ignored-services: '*'
-#  prefix: /gw
-#  strip-prefix: false
-#  ignored-patterns: /**/queryOrdersByUserId/**
+      #匹配路径，该路径都会匹配到以上service-id上，无需再写全部的服务名http://localhost:10086/provider/order/test
+      path: /provider/**
+      #和path配对使用,默认是true,即请求下游服务的时候不会将/provider带入
+      strip-prefix: true
+  #关闭某个过滤器，这里关闭自带的发送错误的拦截器
+  SendErrorFilter:
+    error:
+      disable: true
 
-
-
+#度量指标监控与健康检查
+#控制台http://localhost:10086/hystrix，输入监控的地址：http://localhost:10086/actuator/hystrix.stream
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
 

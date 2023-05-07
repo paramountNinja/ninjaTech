@@ -19,4 +19,9 @@ public class OrderController {
     public List<OrderVo> queryOrdersByUserId(@PathVariable("userId") Integer userId) {
         return orderServiceImpl.queryOrdersByUserId(userId);
     }
+
+    @RequestMapping("/order/test")
+    public String test(){
+        return "ok";
+    }
 }

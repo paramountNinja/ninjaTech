@@ -29,6 +29,8 @@ public class NinjaFilter extends ZuulFilter {
     @Override
     public Object run() throws ZuulException {
         System.out.println("ninja filter");
+        //模拟失败
+        //Integer.parseInt("nihao");
         return null;
     }
 }

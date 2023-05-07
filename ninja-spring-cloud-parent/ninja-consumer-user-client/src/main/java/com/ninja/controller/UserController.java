@@ -26,8 +26,8 @@ public class UserController {
     @RequestMapping("/queryUserInfoById/{userId}")
     public UserInfoVo queryUserInfoById(@PathVariable("userId") Integer userId) {
         User user = userServiceImpl.queryUserById(userId);
-        ResponseEntity<List> responseEntity = restTemplate.getForEntity("http://ninja-provider-order-client/order/queryOrdersByUserId/" + userId, List.class);
-        //ResponseEntity<List> responseEntity = restTemplate.getForEntity("http://localhost:8000/order/queryOrdersByUserId/" + userId, List.class);
+        ResponseEntity<List> responseEntity = restTemplate.getForEntity("http://ninja-provider-order-client/queryOrdersByUserId/" + userId, List.class);
+        //ResponseEntity<List> responseEntity = restTemplate.getForEntity("http://localhost:8000/queryOrdersByUserId/" + userId, List.class);
         List<OrderVo> orderVoList = responseEntity.getBody();
 
         UserInfoVo userInfoVo = new UserInfoVo();
