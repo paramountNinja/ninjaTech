@@ -8,7 +8,7 @@
         <version>2.0.6.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.cmbchina</groupId>
+    <groupId>com.xinghai</groupId>
     <artifactId>ninja-spring-cloud-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>ninja-spring-cloud-parent</name>
@@ -46,7 +46,7 @@
                 <scope>provided</scope>
             </dependency>
             <dependency>
-                <groupId>com.cmbchina</groupId>
+                <groupId>com.xinghai</groupId>
                 <artifactId>ninja-message-web-common</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>

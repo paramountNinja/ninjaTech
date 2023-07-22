@@ -3,12 +3,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.cmbchina</groupId>
+        <groupId>com.xinghai</groupId>
         <artifactId>ninja-juc-parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.cmbchina</groupId>
+    <groupId>com.xinghai</groupId>
     <artifactId>ninja-disruptor-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>ninja-disruptor-service</name>
@@ -21,7 +21,7 @@
     <dependencies>
         <dependency>
             <artifactId>ninja-juc-domain</artifactId>
-            <groupId>com.cmbchina</groupId>
+            <groupId>com.xinghai</groupId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>

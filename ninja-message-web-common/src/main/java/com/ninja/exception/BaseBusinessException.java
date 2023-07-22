@@ -5,9 +5,6 @@ import com.ninja.response.BaseResponse;
 import lombok.Getter;
 import lombok.Setter;
 
-/**
- * Created by jinqinghua on 2017/8/29.
- */
 public class BaseBusinessException extends RuntimeException {
     @Getter
     private String exceptionCode;

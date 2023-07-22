@@ -13,7 +13,7 @@ public class UserServiceImpl {
 
     private User mockUser() {
         User user = new User();
-        user.setUserId(676355);
+        user.setUserId(670001);
         user.setUserName("ninja");
         user.setSex("man");
         return user;

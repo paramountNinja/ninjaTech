@@ -33,13 +33,13 @@ public class OrderServiceImpl {
         Order order1 = new Order();
         order1.setOrderId(2020020801);
         order1.setOrderMoney(new BigDecimal("100.00"));
-        order1.setUserId(676355);
+        order1.setUserId(670001);
         order1.setCreateDt(new Date());
 
         Order order2 = new Order();
         order2.setOrderId(2020020802);
         order2.setOrderMoney(new BigDecimal("200.00"));
-        order2.setUserId(676355);
+        order2.setUserId(670001);
         order2.setCreateDt(new Date());
 
         orderList.add(order1);

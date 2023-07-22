@@ -1,7 +1,7 @@
 /*
-package com.cmbchina.consumer.config;
+package com.xinghai.consumer.config;
 
-import com.cmbchina.contains.RabbitRelationContaints;
+import com.xinghai.contains.RabbitRelationContaints;
 import org.springframework.amqp.core.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

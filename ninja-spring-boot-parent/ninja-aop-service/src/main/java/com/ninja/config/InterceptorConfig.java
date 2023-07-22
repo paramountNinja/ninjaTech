@@ -18,7 +18,7 @@ public class InterceptorConfig {
     public DefaultPointcutAdvisor defaultPointcutAdvisor() {
         NinjaInterceptor ninjaInterceptor = new NinjaInterceptor();
         AspectJExpressionPointcut pointcut = new AspectJExpressionPointcut();
-        pointcut.setExpression("execution(* com.cmbchina..service..*Service.*(..))");
+        pointcut.setExpression("execution(* com.xinghai..service..*Service.*(..))");
 
         DefaultPointcutAdvisor advisor = new DefaultPointcutAdvisor();
         advisor.setPointcut(pointcut);
