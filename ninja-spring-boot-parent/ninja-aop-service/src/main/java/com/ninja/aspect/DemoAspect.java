@@ -21,7 +21,7 @@ public class DemoAspect {
     private ObjectMapper objectMapper;
 
 
-    @Around(value = "execution(* com.ninja..service..*Service.*(..))")
+    @Around(value = "execution(* com.ninja..service..*DemoService.*(..))")
     public Object doAround(ProceedingJoinPoint proceedingJoinPoint) throws Throwable {
         System.out.println(proceedingJoinPoint.getSignature() + " : before");
         Object[] args = proceedingJoinPoint.getArgs();
