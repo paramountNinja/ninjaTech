@@ -13,4 +13,17 @@
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-beans</artifactId>
+            <version>5.0.10.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>com.xinghai</groupId>
+            <artifactId>ninja-message-web-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
 </project>
