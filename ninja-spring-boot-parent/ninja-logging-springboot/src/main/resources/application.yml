@@ -1,0 +1,15 @@
+logging:
+  level:
+    #root: trace
+    com:
+      ninja: trace
+  pattern:
+    console: '%clr(%d{${LOG_DATEFORMAT_PATTERN:-yyyy-MM-dd HH:mm:ss.SSS}}){faint} %clr(${LOG_LEVEL_PATTERN:-%5p}) %clr(${PID:- }){magenta} %clr(---){faint} %clr([%15.15t]){faint} %clr(%-40.40logger{39}){cyan} %clr(:){faint} %m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}'
+    dateformat: -yyyy-MM-dd
+  #file:
+    #name: D://logs/my.log  # 可以my.log
+    #path: D:/   #不可以制定名称，默认spring.log记录
+    #max-size: 5KB
+spring:
+  profiles:
+    active: dev
