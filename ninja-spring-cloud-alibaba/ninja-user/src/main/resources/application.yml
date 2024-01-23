@@ -9,6 +9,9 @@ spring:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
+        #命名空间-用于资源隔离
+        #namespace: 75e9d935-dc94-4e92-b770-4cec9702afc9
         #group:  ninja-order
         cluster-name: SH
+        #默认使用临时实例
         ephemeral: false
