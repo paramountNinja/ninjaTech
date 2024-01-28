@@ -1,0 +1,40 @@
+spring:
+  application:
+    name: mall-gateway
+  #配置nacos注册中心地址
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+    gateway:
+      #设置路由：路由id、路由到微服务的uri、断言
+      routes:
+        - id: order_route  #路由ID，全局唯一，建议配置服务名
+          uri: lb://ninja-order  #lb 整合负载均衡器loadbalancer
+          predicates:
+            - Path=/order/**   # 断言，路径相匹配的进行路由
+          filters:
+            - StripPrefix=1    #请求下游服务时会过滤Path中的前缀第1段，相当于没有/order
+
+        - id: user_route   #路由ID，全局唯一，建议配置服务名
+          uri: lb://ninja-user  #lb 整合负载均衡器loadbalancer
+          predicates:
+            - Path=/user/**   # 断言，路径相匹配的进行路由
+            #- Header=X-Request-Id, \d+  # Header匹配  请求中带有请求头名为 x-request-id，其值与 \d+ 正则表达式匹配
+          filters:
+            - StripPrefix=1    #请求下游服务时会过滤Path中的前缀第1段，相当于没有/
+            - AddRequestHeader=X-Request-Id, 123 #通过过滤器添加请求头，先断言，后过滤器
+            - AddRequestParameter=color, blue  # 添加请求参数
+            - CheckAuth=ninja, 男
+      #跨域配置
+      globalcors:
+        cors-configurations:
+          '[/**]':  # 所有路径
+            allowedOrigins: "*"  #所有来源
+            allowedMethods:
+              - GET
+              - POST
+              - DELETE
+              - PUT
+              - OPTION
