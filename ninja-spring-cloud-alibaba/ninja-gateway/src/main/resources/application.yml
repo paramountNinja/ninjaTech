@@ -27,6 +27,12 @@ spring:
             - AddRequestHeader=X-Request-Id, 123 #通过过滤器添加请求头，先断言，后过滤器
             - AddRequestParameter=color, blue  # 添加请求参数
             - CheckAuth=ninja, 男
+        - id: http_demo
+          uri: http://www.baidu.com
+          predicates:
+            - Path=/http/**
+          filters:
+            - StripPrefix=1
       #跨域配置
       globalcors:
         cors-configurations:
